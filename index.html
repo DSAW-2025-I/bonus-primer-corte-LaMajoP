@@ -3,11 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    
+    <title>To-Do-List</title>
   </head>
   <body>
-    <h1>Mi TODO list</h1>
-    <script src="scripts/script.js"></script>
+    <header>
+      <h1>TO DO LIST</h1>
+    </header>
+
+    <section class="type-task-container">
+        <label>Task</label>
+        <input type="text" placeholder="Type Your Task Here"/>
+      </section>
+
+      <section class="buttons-container">
+        <button id="button-add">Add Task</button>
+        <button id="button-delete">Delete Task</button>
+      </section>
+
+    <section class="task-create-container">
+      <p>These Are Your Tasks</p>
+    </section>
   </body>
 </html>
